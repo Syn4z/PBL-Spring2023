@@ -19,7 +19,7 @@ p3{
     height: 50px;
     background-color: #fcfcc3;
     position: absolute;
-    left: 50px;
+    left: 40px;
     top: 170px;
     padding: 10px;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -33,7 +33,7 @@ p3{
     background-color: #fcfcc3;
     color: #fd6220;
     position: absolute;
-    left: 50px;
+    left: 40px;
     top: 205px;
     padding: 10px;
     font-family: "Lucida Handwriting", "Brush Script MT", cursive;
@@ -87,7 +87,7 @@ p3{
     color: rgb(0, 0, 0);
     font-size: 20px;
     position: absolute;
-    left: 250px;
+    left: 300px;
     top: 900px;
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight: bold;
@@ -142,7 +142,7 @@ p3{
     background-color: #fcfcc3;
     color: #000000;
     position: absolute;
-    left: 1055px;
+    left: 1050px;
     top: 830px;
     padding: 10px;
     font-family: "Lucida Console", "Courier New", monospace;
