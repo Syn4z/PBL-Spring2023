@@ -1,23 +1,26 @@
 p1 {
     font-size: 16px;
     font-weight: normal;
+    color: #e8e7e5;
 }
 p2 {
     font-size: 22px;
 }
 
 body {
-    background-color: #fcfcc3;
+    background-color: #d7a684;
 }
 p3{
-    text-align: center;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: normal;
+    color: #592c28;
 }
 
-.text-above-rectangle p {
+.company-name-first p {
     width: 400px;
     height: 50px;
-    background-color: #fcfcc3;
+    background-color: #d7a684;
+    color: #ffffff;
     position: absolute;
     left: 40px;
     top: 170px;
@@ -27,11 +30,11 @@ p3{
     font-size: 30px;
 }
 
-.text-below-title p {
+.text-below-first-company-name p {
     width: 400px;
     height: 50px;
-    background-color: #fcfcc3;
-    color: #fd6220;
+    background-color: #d7a684;
+    color: #592c28;
     position: absolute;
     left: 40px;
     top: 205px;
@@ -42,18 +45,18 @@ p3{
 
 }
 
-.inner-rectangle {
+.product-description {
     width: 800px;
     height: 625px;
-    background-color: #fec400;
+    background-color: #7f6863;
     position: absolute;
     left: 50px;
     top: 330px;
     padding: 10px;
 }
 
-.inner-rectangle p {
-    color: rgb(0, 0, 0);
+.product-description p {
+    color: #262527;
     font-size: 20px;
     position: absolute;
     left: 80px;
@@ -83,7 +86,7 @@ p3{
     margin: 0;
 }
 
-.exipire-date p {
+.expiration-date p {
     color: rgb(0, 0, 0);
     font-size: 20px;
     position: absolute;
@@ -94,11 +97,10 @@ p3{
     margin: 0;
 }
 
-.second-title p {
+.company-name-second p {
     width: 400px;
     height: 50px;
-    background-color: #fcfcc3;
-    color: #000000;
+    color: #ffffff;
     position: absolute;
     left: 1000px;
     top: 105px;
@@ -109,11 +111,10 @@ p3{
 
 }
 
-.below-second-title p {
+.text-below-second-company-name p {
     width: 400px;
     height: 50px;
-    background-color: #fcfcc3;
-    color: #fd6220;
+    color: #592c28;
     position: absolute;
     left: 1000px;
     top: 100px;
@@ -126,7 +127,6 @@ p3{
 .text-middle p {
     width: 400px;
     height: 50px;
-    background-color: #fcfcc3;
     color: #000000;
     position: absolute;
     left: 1000px;
@@ -139,7 +139,6 @@ p3{
 .text-barcode p {
     width: 400px;
     height: 50px;
-    background-color: #fcfcc3;
     color: #000000;
     position: absolute;
     left: 1050px;
@@ -153,8 +152,7 @@ p3{
 .text-address p {
     width: 420px;
     height: 50px;
-    background-color: #fcfcc3;
-    color: #000000;
+    color: #592c28;
     position: absolute;
     left: 1400px;
     top: 730px;
@@ -164,27 +162,29 @@ p3{
     font-weight: bold;
 }
 
-.orange-img {
+.chocolate-img {
     position: absolute;
     top: 0px;
     left: 0px;
-    max-width: 100%;
-    height: auto;
+    max-width: 1%;
+    transform: scale(0.04);
+    height: 1%;
 }
 
-.orange2-img {
+.chocolate2-img {
     position: absolute;
-    top: 0px;
-    left: 1615px;
-    max-width: 100%;
+    top: 90px;
+    left: 1440px;
+    max-width: 20%;
+    transform: scale(1);
     height: auto;
 }
 
 .barcode-img {
     position: absolute;
-    top: 750px;
-    left: 1050px;
+    top: 380px;
+    left: 735px;
     max-width: 100%;
-    transform: scale(1.5);
+    transform: scale(0.2);
     height: auto;
 }
